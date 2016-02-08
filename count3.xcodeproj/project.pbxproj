@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D1E3EA41C60347E00036E88 /* yuki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E3EA31C60347E00036E88 /* yuki.png */; };
+		4D1E3EA81C60F50C00036E88 /* sunn.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D1E3EA71C60F50C00036E88 /* sunn.png */; };
+		4D965CF01C660A3200F2DC5C /* ios in Resources */ = {isa = PBXBuildFile; fileRef = 4D965CEF1C660A3200F2DC5C /* ios */; };
 		4DC47BC51C5F9BCA000FB9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC47BC41C5F9BCA000FB9EC /* AppDelegate.swift */; };
 		4DC47BC71C5F9BCA000FB9EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC47BC61C5F9BCA000FB9EC /* ViewController.swift */; };
 		4DC47BCA1C5F9BCA000FB9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC47BC81C5F9BCA000FB9EC /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		4DC47BCF1C5F9BCA000FB9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC47BCD1C5F9BCA000FB9EC /* LaunchScreen.storyboard */; };
 		4DC47BDA1C5F9BCA000FB9EC /* count3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC47BD91C5F9BCA000FB9EC /* count3Tests.swift */; };
 		4DC47BE51C5F9BCB000FB9EC /* count3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC47BE41C5F9BCB000FB9EC /* count3UITests.swift */; };
+		4DC47BF31C5FB235000FB9EC /* さんさん.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC47BF21C5FB235000FB9EC /* さんさん.png */; };
+		4DC47BF51C5FB245000FB9EC /* ゆきさん.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DC47BF41C5FB245000FB9EC /* ゆきさん.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D1E3EA31C60347E00036E88 /* yuki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yuki.png; sourceTree = "<group>"; };
+		4D1E3EA71C60F50C00036E88 /* sunn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sunn.png; sourceTree = "<group>"; };
+		4D965CEF1C660A3200F2DC5C /* ios */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ios; sourceTree = "<group>"; };
 		4DC47BC11C5F9BCA000FB9EC /* count3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = count3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC47BC41C5F9BCA000FB9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DC47BC61C5F9BCA000FB9EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		4DC47BE01C5F9BCB000FB9EC /* count3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = count3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC47BE41C5F9BCB000FB9EC /* count3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = count3UITests.swift; sourceTree = "<group>"; };
 		4DC47BE61C5F9BCB000FB9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC47BF21C5FB235000FB9EC /* さんさん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "さんさん.png"; sourceTree = "<group>"; };
+		4DC47BF41C5FB245000FB9EC /* ゆきさん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゆきさん.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 		4DC47BC31C5F9BCA000FB9EC /* count3 */ = {
 			isa = PBXGroup;
 			children = (
+				4D965CEF1C660A3200F2DC5C /* ios */,
+				4D1E3EA71C60F50C00036E88 /* sunn.png */,
+				4D1E3EA31C60347E00036E88 /* yuki.png */,
+				4DC47BF41C5FB245000FB9EC /* ゆきさん.png */,
+				4DC47BF21C5FB235000FB9EC /* さんさん.png */,
 				4DC47BC41C5F9BCA000FB9EC /* AppDelegate.swift */,
 				4DC47BC61C5F9BCA000FB9EC /* ViewController.swift */,
 				4DC47BC81C5F9BCA000FB9EC /* Main.storyboard */,
@@ -231,7 +246,12 @@
 			files = (
 				4DC47BCF1C5F9BCA000FB9EC /* LaunchScreen.storyboard in Resources */,
 				4DC47BCC1C5F9BCA000FB9EC /* Assets.xcassets in Resources */,
+				4DC47BF51C5FB245000FB9EC /* ゆきさん.png in Resources */,
 				4DC47BCA1C5F9BCA000FB9EC /* Main.storyboard in Resources */,
+				4DC47BF31C5FB235000FB9EC /* さんさん.png in Resources */,
+				4D1E3EA81C60F50C00036E88 /* sunn.png in Resources */,
+				4D965CF01C660A3200F2DC5C /* ios in Resources */,
+				4D1E3EA41C60347E00036E88 /* yuki.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +502,7 @@
 				4DC47BEB1C5F9BCB000FB9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC47BEC1C5F9BCB000FB9EC /* Build configuration list for PBXNativeTarget "count3Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +511,7 @@
 				4DC47BEE1C5F9BCB000FB9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DC47BEF1C5F9BCB000FB9EC /* Build configuration list for PBXNativeTarget "count3UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +520,7 @@
 				4DC47BF11C5F9BCB000FB9EC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
